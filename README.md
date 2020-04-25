@@ -1,9 +1,15 @@
-# Output <img src="https://i.imgur.com/u7ve5xQ.png">
-<pre>
-changes in <code>/inc/init.php</code>
-  <kbd>$DB_HOST = "localhost";</kbd>
-  <kbd>$DB_USER = "root";</kbd>
-  <kbd>$DB_PASS = "root";</kbd>
-  <kbd>$DB_NAME = "ranking";</kbd>
-for your host
-</pre>
+# node-vampinto-bot
+
+Envia a foto do Vampeta pelado quando algum usuário do Twitter usa hashtag específica.
+
+## Créditos
+
+Criado por [Acacio De Lima](https://twitter.com/limadeacacio)
+
+## Instalação
+
+Extraia ```"imagem.rar"``` em ```"src/"```:
+
+Em seguida, execute o comando de instalação do seu gerenciador de pacotes:
+
+```npm i``` ou ```yarn```
