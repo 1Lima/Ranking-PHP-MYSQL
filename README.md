@@ -1,15 +1,18 @@
-# node-vampinto-bot
+# Ranking-PHP-MYSQL
 
-Envia a foto do Vampeta pelado quando algum usuário do Twitter usa hashtag específica.
+Tabela de classificados por pontos
 
 ## Créditos
 
 Criado por [Acacio De Lima](https://twitter.com/limadeacacio)
 
-## Instalação
+## SQL
 
-Extraia ```"imagem.rar"``` em ```"src/"```:
-
-Em seguida, execute o comando de instalação do seu gerenciador de pacotes:
-
-```npm i``` ou ```yarn```
+```
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL DEFAULT '',
+  `points` bigint(20) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=101 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+```
